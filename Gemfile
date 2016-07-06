@@ -1,11 +1,19 @@
 source 'http://rubygems.org'
 
+<<<<<<< HEAD
 # ruby '2.3.1'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.0'
 gem 'mysql2', '>= 0.3.13', '< 0.5'
 # Use postgresql as the database for Active Record
 # gem 'pg', '~> 0.18'
+=======
+ruby '2.3.1'
+# Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
+gem 'rails', '~> 5.0.0'
+# Use postgresql as the database for Active Record
+gem 'pg', '~> 0.18'
+>>>>>>> 40bc18274176a0b25f2d4320e3bd9502887e1eb7
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
 # Use SCSS for stylesheets
@@ -51,4 +59,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'bootstrap', '~> 4.0.0.alpha3'
 gem 'rails-assets-tether'
 gem 'rails_12factor'
+<<<<<<< HEAD
 gem 'wdm'
+=======
+>>>>>>> 40bc18274176a0b25f2d4320e3bd9502887e1eb7
